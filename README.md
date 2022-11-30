@@ -5,7 +5,7 @@ tiny helper for parsing go durations in nu shell
 
 # wrap in a nu func
 
-```
+```nu
 def "from go-duration" [] {
     $in | from-go-duration | complete | get stdout | into duration 
 } 
